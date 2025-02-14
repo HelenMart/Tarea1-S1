@@ -72,3 +72,5 @@ tiempo_binaria = timeit.timeit(lambda: busqueda_binaria(usuarios, id), number=1)
 print(f"Busqueda Binaria: {tiempo_binaria:.6f} segundos")
 print(f" ")
 ```
+###Link de video de apoyo 
+- https://umgt.sharepoint.com/:v:/s/Programacion592/Ec9YVv3iADVPk_vBvJpAwf4BaWmC362rDXGLrpVLPQqvnw
