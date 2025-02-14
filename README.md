@@ -1,7 +1,7 @@
 # Funciones
 - Crear clase para representacion de un usuario con parametros basicos.
 - Generar 100,000 usuarios con el mismo formato.
-- Realizar búsqueda líneal y binaria.
+- Realizar búsqueda lineal y binaria.
 - Medir tiempo de ejecucion de ambas búsqueda.
 # Librerias
 ```python
