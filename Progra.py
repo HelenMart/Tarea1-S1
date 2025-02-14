@@ -17,7 +17,7 @@ def generarUsuarios(n):
     usuarios = []
     for i in range(1, n + 1):
         nombre = ''.join(random.choices(string.ascii_letters, k=5))  # Nombre de 5 letras aleatorias
-        edad = random.randint(18, 80)  # Edad entre 18 y 80 años
+        edad = random.randint(10, 50)
         usuarios.append(Usuarios(i, nombre, edad))  # Agregar usuario a la lista
     return usuarios
 
@@ -46,11 +46,11 @@ def busqueda_binaria(usuarios, id_buscar):
     return None  # No se encontró
 
 print(f"Primeras personas aleatorias")
-for i in range(5):
+for i in range(100000):
     print(usuarios[i])
 
-resultado1 = busqueda_lineal(usuarios,2)
-resultado2 = busqueda_binaria(usuarios, 1)
+resultado1 = busqueda_lineal(usuarios,9)
+resultado2 = busqueda_binaria(usuarios, 9)
 print(f"----------------------------------------")
 print(f"Resultado de busqueda Lineal: ") 
 print(resultado1)
